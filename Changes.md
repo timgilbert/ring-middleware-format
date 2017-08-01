@@ -2,7 +2,33 @@
 
 ## Unreleased
 
+**[compare](https://github.com/ngrunwald/ring-middleware-format/compare/release-0.7.2...master)**
+- Dropped support for Java JDK 6
+- Updated deps:
+```
+[cheshire "5.7.0] is available but we use "5.6.3"
+```
+
+## 0.7.2 (2017-01-30)
+
+**[compare](https://github.com/ngrunwald/ring-middleware-format/compare/release-0.7.1...0.7.2)**
+
+- Updated deps:
+```
+[ring/ring-core "1.5.1"] is available but we use "1.4.0"
+[cheshire "5.6.3"] is available but we use "5.6.1"
+[com.ibm.icu/icu4j "58.2"] is available but we use "57.1"
+[clojure-msgpack "1.2.0"] is available but we use "1.1.3"
+[com.cognitect/transit-clj "0.8.297"] is available but we use "0.8.285"
+```
+
+## 0.7.1 (2017-01-30)
+
+**[compare](https://github.com/ngrunwald/ring-middleware-format/compare/0.7.0...0.7.1)**
+
 - Fix [#56](https://github.com/ngrunwald/ring-middleware-format/issues/56) use `:key-fn` in `wrap-json-kw-params`
+- Fix [#66](https://github.com/ngrunwald/ring-middleware-format/issues/66) parse-accept header should allow non numeric
+parameters
 
 ## 0.7.0 (2015-11-05)
 
